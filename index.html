@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Thông tin cá nhân">
+	<meta name="keywords" content="HTML,CSS,JS,JQUERY">
+	<meta name="author" content="Công Tạo">
+	<title>Trần Công Tạo - Website cá nhân </title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/bootstrap-theme.min.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/animate.css">
+	<link rel="stylesheet" href="css/jquery.fancybox.min.css">
+	<link rel="stylesheet" href="1.css">
+</head>
+<body data-spy="scroll" data-target=".navbar-default" data-offset="100">
+	<div class="over">
+		<div id="fb-root"></div>
+
+		<!-- loading -->
+<!-- 		<div class="loading">
+			<div class="khoiload"></div>
+		</div> -->
+
+		<script>(function(d, s, id) {
+			var js, fjs = d.getElementsByTagName(s)[0];
+			if (d.getElementById(id)) return;
+			js = d.createElement(s); js.id = id;
+			js.src = 'https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v3.1&appId=529334390833775&autoLogAppEvents=1';
+			fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));</script>
+
+		<!-- khối menu -->
+		<div class="menu">
+			<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+				<div class="container">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<a class="navbar-brand" href="index.html">CongTao</a>
+					</div>
+					<div class="collapse navbar-collapse navbar-ex1-collapse">
+						<ul class="nav navbar-nav navbar-right">
+							<li><a href="index.html">Trang Chủ</a></li>
+							<li><a href="#gioithieu">Giới Thiệu</a></li>
+							<li><a href="#sanpham">Sản Phẩm</a></li>
+							<li><a href="#hotro">Hỗ Trợ</a></li>
+							<li><a href="contact.html">Liên Hệ</a></li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+		</div> <!-- hết khối menu -->
+		<!-- khối banner màu đỏ-->
+		<div class="banner">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-12 text-center">
+						<div class="banner_in">
+							<a href="images/logo.png" data-fancybox="gallery" class="fancybox">
+								<img src="images/logo.png" class="img-responsive img-fluid" alt="">
+							</a>
+							<h2 class="text-uppercase wow rubberBand">Trần Công Tạo</h2>
+							<!-- <h5 class="">Student at Ho Chi Minh University Of Technology (HUTECH)</h5> -->
+							<h5 class="text-uppercase">Lập Trình Viên</h5>
+							<a href="https://www.facebook.com/CongTao1997" class="btn btn-success hire"target="_blank">Liên Hệ</a>
+							<div class="icon">
+								<i class="fa fa-chevron-down"></i>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div> <!-- hết khối banner màu đỏ -->
+		<!-- khối thông tin cá nhân -->
+		<div id="gioithieu" class="info_personal">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-10 col-md-push-1">
+						<div class="row">
+							<div class="col-xs-8 col-xs-push-2 col-md-4 col-md-push-1">
+								<a href="images/avatar_ct.jpg" data-fancybox="gallery" class="fancybox">
+									<img src="images/avatar_ct.jpg" class="img-fluid img-responsive" alt="">
+								</a>
+							</div>
+							<div class="col-xs-10 col-xs-push-1 col-md-8 col-md-push-2">
+								<div class="info">
+									<div class="name">
+										<h2>Trần <b>Công Tạo</b></h2>
+										<h6 class="text-muted">Lập trình viên</h6>
+										<div class="star">
+											<i class="fa fa-star"></i>
+										</div>
+									</div>
+									<div class="place">
+										<h4 class=""><b class="tt"><i class="fa fa-map-marker"></i></b>Tiền Giang - Tp.Hồ Chí Minh</h4>
+										<h4 class=""><b class="tt"><i class="fa fa-envelope"></i></b>Congtao1997@gmail.com</h4>
+										<h4 class=""><b class="tt"><i class="fa fa-mobile"></i></b>039 XXXX XXX</h4>
+										<h4 class=""><b class="tt"><i class="fa fa-facebook"></i></b><a href="facebook.com/Congtao1997">Facebook.com/Congtao1997</a></h4>
+										<h4 class=""><b class="tt"><i class="fa fa-birthday-cake"></i></b>01/01/1997</h4>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div><!-- hết khối thông tin cá nhân -->
+		<br>
+		<!-- khối quá trình học tập -->
+		<div id="about" class="about">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12 text-center">
+						<div class="title">
+							<h1 class="text-uppercase"><span class="label label-warning">Quá Trình Học Tập</span></h1>
+							<p class="text-muted">1997 - Hiện tại</p>
+							<div class="star">
+								<i class="fa fa-star"></i>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row timelife">
+					<div class="hidden-xs hidden-sm duongke"></div>
+					<div class="row mottin">
+						<div class="col-xs-12 col-md-6 col-md-push-1">
+							<div class="row">
+								<div class="info">
+									<div class="col-xs-8 col-md-8 text-right">
+										<div class="info_left">
+											<h3 class="">2002 - 2007</h3>
+											<h3 class="">Tiểu Học Vĩnh Lợi (Long An)</h3>
+											<p class="">Học Sinh Lớp 1 - Lớp 2 - Lớp 3 - Lớp 4 - Lớp 5</p>
+										</div>
+									</div>
+									<div class="col-xs-4 col-md-4">
+										<div class="img_left">
+											<img src="images/about_1.png" class="img-responsive" alt="">
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-xs-0 col-md-6"></div>
+					</div>
+					<div class="row mottin">
+						<div class="col-xs-0 col-md-6"></div>
+						<div class="col-md-6 col-md-pull-1">
+							<div class="row">
+								<div class="info">
+									<div class="col-xs-4 col-md-4">
+										<div class="img_left">
+											<img src="images/about_2.png" class="img-responsive" alt="">
+										</div>
+									</div>
+									<div class="col-xs-8 col-md-8 text-left">
+										<div class="info_left">
+											<h3 class="">2007 - 2012</h3>
+											<h3 class="">Trung Học Cơ Sở Thị Trấn Tân Hưng (Long An)</h3>
+											<p class="">Học Sinh Lớp 6 - Lớp 7 - Lớp 8 - Lớp 9</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row mottin">
+						<div class="col-md-6 col-md-push-1">
+							<div class="row">
+								<div class="info">
+									<div class="col-xs-8 col-md-8 text-right">
+										<div class="info_left">
+											<h3 class="">2012 - 2013</h3>
+											<h3 class="">Trung Học Phổ Thông Tân Hưng (Long An)</h3>
+											<p class="">Học Sinh Lớp 10</p>
+										</div>
+									</div>
+									<div class="col-xs-4 col-md-4">
+										<div class="img_left">
+											<img src="images/about_3.png" class="img-responsive" alt="">
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6"></div>
+					</div>
+					<div class="row mottin">
+						<div class="col-xs-0 col-md-6"></div>
+						<div class="col-md-6 col-md-pull-1">
+							<div class="row">
+								<div class="info">
+									<div class="col-xs-4 col-md-4">
+										<div class="img_left">
+											<img src="images/about_4.png" class="img-responsive" alt="">
+										</div>
+									</div>
+									<div class="col-xs-8 col-md-8 text-left">
+										<div class="info_left">
+											<h3 class="">2013 - 2015</h3>
+											<h3 class="">Trung Học Cơ Sở & Trung Học Phổ Thông Phú Thạnh (Tiền Giang)</h3>
+											<p class="">Học Sinh Lớp 11 & 12</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row mottin">
+						<div class="col-md-6 col-md-push-1">
+							<div class="row">
+								<div class="info">
+									<div class="col-xs-8 col-md-8 text-right">
+										<div class="info_left">
+											<h3 class="">2015 - 2019</h3>
+											<h3 class="">Đại Học Công Nghệ Thành Phố Hồ Chí Minh (HUTECH)</h3>
+											<p class="">Sinh Viên Đại Học (Hệ Chính Quy)</p>
+										</div>
+									</div>
+									<div class="col-xs-4 col-md-4">
+										<div class="img_left">
+											<img src="images/about_5.png" class="img-responsive" alt="">
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-xs-0 col-md-6"></div>
+					</div>
+				</div>
+			</div>
+		</div> <!-- hết khối quá trình học tập -->
+		<!-- khối icon ngôn ngữ lập trình -->
+		<div id="sanpham"  class="language_design">
+			<div class="container-fuild">
+				<div class="row">
+					<div class="col-md-10 col-md-push-1">
+						<div class="row">
+							<div class="col-xs-6 col-md-3">
+								<img src="images/bootstrap.png" class="img-responsive" alt="">
+								<!-- <div class="row">
+									<div class="col-md-12">
+										<div class="row">
+											<div class="language">
+												<div class="col-xs-4">
+													<img src="images/bootstrap.png" class="img-responsive">
+												</div>
+												<div class="col-xs-8">
+													<h5 class="text-uppercase">BootStrap</h5>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div> -->
+							</div>
+							<div class="col-xs-6 col-md-3">
+								<img src="images/html5.png" class="img-responsive" alt="">
+								<!-- <div class="row">
+									<div class="col-md-12">
+										<div class="row">
+											<div class="language">
+												<div class="col-xs-4">
+													<img src="images/html5.png" class="img-responsive">
+												</div>
+												<div class="col-xs-8">
+													<h5 class="text-uppercase">HTML</h5>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div> -->
+							</div>
+							<div class="col-xs-6 col-md-3">
+								<img src="images/css.png" class="img-responsive" alt="">
+								<!-- <div class="row">
+									<div class="col-md-12">
+										<div class="row">
+											<div class="language">
+												<div class="col-xs-4">
+													<img src="images/css.png" class="img-responsive">
+												</div>
+												<div class="col-xs-8">
+													<h5 class="text-uppercase">CSS</h5>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div> -->
+							</div>
+							<div class="col-xs-6 col-md-3">
+								<img src="images/jquery.png" class="img-responsive" alt="">
+								<!-- <div class="row">
+									<div class="col-md-12">
+										<div class="row">
+											<div class="language">
+												<div class="col-xs-4">
+													<img src="images/jquery.png" class="img-responsive">
+												</div>
+												<div class="col-xs-8">
+													<h5 class="text-uppercase">JQuery</h5>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div> -->
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div> <!-- hết khối icon ngôn ngữ lập trình -->
+		<!-- khối sản phẩm đã thiết kế được -->
+		<div class="sanpham">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-xs-12 text-center">
+						<h4 class="text-uppercase title"><span class="label label-success">Template</span> Thiết Kế</h4>
+					</div>
+				</div>
+				<div class="row">
+					<h4 class="pull-right text-primary"><a href="Trang-0.html">Xem thêm</a></h4>					
+					<div id="carousel-id" class="carousel slide" data-ride="carousel">
+						<ol class="carousel-indicators">
+							<li data-target="#carousel-id" data-slide-to="0" class="active"></li>
+							<li data-target="#carousel-id" data-slide-to="1" class=""></li>
+							<li data-target="#carousel-id" data-slide-to="2" class=""></li>
+						</ol>
+						<div class="carousel-inner">
+							<div class="item active">
+								<div class="row">
+									<div class="col-xs-3 col-md-3">
+										<div class="motsp">
+											<a href="project/Trang-2/001/index.html" target="_blank">
+												<img src="images/pro_h1.PNG" class="img-responsive " alt="">
+											</a>
+										</div>
+									</div>
+									<div class="col-xs-3 col-md-3">
+										<div class="motsp">
+											<a href="project/Trang-2/002/index.html" target="_blank">
+												<img src="images/pro_h2.PNG" class="img-responsive " alt="">
+											</a>
+										</div>
+									</div>
+									<div class="col-xs-3 col-md-3">
+										<div class="motsp">
+											<a href="project/Trang-2/003/index.html" target="_blank">
+												<img src="images/pro_h3.PNG" class="img-responsive " alt="">
+											</a>
+										</div>
+									</div>
+									<div class="col-xs-3 col-md-3">
+										<div class="motsp">
+											<a href="project/Trang-0/007/index.html" target="_blank">
+												<img src="images/khac_h7.PNG" class="img-responsive " alt="">
+											</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="item">
+								<div class="row">
+									<div class="col-xs-3 col-md-3">
+										<div class="motsp">
+											<a href="project/Trang-0/004/index.html" target="_blank">
+												<img src="images/khac_h4.PNG" class="img-responsive " alt="">
+											</a>
+										</div>
+									</div>
+									<div class="col-xs-3 col-md-3">
+										<div class="motsp">
+											<a href="project/Trang-0/006/index.html" target="_blank">
+												<img src="images/khac_h6.PNG" class="img-responsive " alt="">
+											</a>
+										</div>
+									</div>
+									<div class="col-xs-3 col-md-3">
+										<div class="motsp">
+											<a href="project/Trang-0/010/index.html" target="_blank">
+												<img src="images/khac_h10.PNG" class="img-responsive " alt="">
+											</a>
+										</div>
+									</div>
+									<div class="col-xs-3 col-md-3">
+										<div class="motsp">
+											<a href="project/Trang-0/005/index.html" target="_blank">
+												<img src="images/khac_h5.PNG" class="img-responsive " alt="">
+											</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<a class="left carousel-control" href="#carousel-id" data-slide="prev"><span class="fa fa-angle-left"></span></a>
+						<a class="right carousel-control" href="#carousel-id" data-slide="next"><span class="fa fa-angle-right"></span></a>
+					</div>
+				</div>
+			</div>
+		</div> <!-- hết khối sản phẩm thiết kế -->
+		<!-- khối CV đã thiết kế -->
+		<div class="cv">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12 text-center">
+						<div class="title">
+							<h4 class="text-uppercase"><span class="label label-primary">CV</span> Thiết Kế</h4>
+						</div>
+					</div>
+					<div class="col-xs-6 col-md-3">
+						<div class="motcv">
+							<a href="project/CV/CV1.html" target="_blank">
+								<img src="images/cv-001.PNG" class="img-responsive" alt="">
+								<p class="caption">Mẫu CV 001</p>
+							</a>
+						</div>
+					</div>
+					<div class="col-xs-6 col-md-3">
+						<div class="motcv">
+							<a href="project/CV/CV2.html" target="_blank">
+								<img src="images/cv-002.PNG" class="img-responsive" alt="">
+								<p class="caption">Mẫu CV 002</p>
+							</a>
+						</div>
+					</div>
+					<div class="col-xs-6 col-md-3">
+						<div class="motcv">
+							<a href="project/CV/CV3.html" target="_blank">
+								<img src="images/cv-003.PNG" class="img-responsive" alt="">
+								<p class="caption">Mẫu CV 003</p>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div> <!-- hết khối CV đã thiết kế -->
+		<div class="video">
+			<div class="title5">
+				<h2 class="text-uppercase">Giải Trí</h2>
+			</div>
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-md-3 col-lg-3">
+						<a href="Nhac.html" target="_blank"><h3 class="text-uppercase">Nhạc</h3></a>
+					</div>
+					<div class="col-md-3 col-lg-3">
+						<a href="Phim.html" target="_blank"><h3 class="text-uppercase">Phim</h3></a>
+					</div>
+					<div class="col-md-3 col-lg-3">
+						<a href="BMHH.html" target="_blank"><h3 class="text-uppercase">Bạn Muốn Hẹn Hò</h3></a>
+					</div>
+					<div class="col-md-3 col-lg-3">
+						<a href="AmThuc.html" target="_blank"><h3 class="text-uppercase">Ẩm Thực</h3></a>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+	<!-- khối comment facebook -->
+	<div id="hotro" class="fb_comment">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12 text-center">
+					<h2>Bạn hãy đóng góp ý kiến cho website</h2>
+					<i class="fa fa-hand-o-down"></i>
+				</div>
+				<div class="col-xs-12 text-center">
+					<div class="comment">
+						<div class="fb-comments" data-href="https://trancongtao.github.io/" data-width="768" data-numposts="5"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div> <!-- hết khối comment facebook -->
+
+	<!-- khối icon trên footer -->
+	<div class="ft_finally">
+		<div class="pic_ft">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-xs-3">
+						<i class="fa fa-mobile"></i>
+					</div>
+					<div class="col-xs-3">
+						<i class="fa fa-laptop"></i>
+					</div>
+					<div class="col-xs-3">
+						<i class="fa fa-internet-explorer"></i>
+					</div>
+					<div class="col-xs-3">
+						<i class="fa fa-keyboard-o"></i>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div> <!-- hết khối icon trên footer -->
+	<!-- khối tác giả thiết kế -->
+	<div class="author">
+		<h6>Copyright © CongTao - 2019 | Designed by Tran Cong Tao</h6>
+	</div> <!-- hết khối tác giả thiết kế -->
+	<!-- nút mũi tên: lên đầu trang -->
+	<div class="button_top">
+		<i class="fa fa-long-arrow-up"></i>
+	</div> <!-- hết khối nút mũi tên: lên đầu trang -->
+</div>
+<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+<!-- <script type="text/javascript" src="js/wow.min.js"></script> -->
+<script type="text/javascript" src="js/jquery.fancybox.min.js"></script>
+<!-- <script type="text/javascript" src="js/TimelineMax.min.js"></script> -->
+<!-- <script type="text/javascript" src="js/TweenMax.min.js"></script> -->
+<script type="text/javascript" src="1.js"></script>
+</body>
+</html>
