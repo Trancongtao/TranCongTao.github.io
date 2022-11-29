@@ -9,6 +9,10 @@ html {
     margin-bottom: 20px;
 }
 
+.row.wrapper-full {
+    margin-top: 10px;
+}
+
 * {
     margin: 0;
     padding: 0;
