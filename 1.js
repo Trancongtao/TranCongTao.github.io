@@ -19,8 +19,8 @@ $(document).ready(function() {
 	// new WOW().init();
 
 
-	var vt_infopersonal=$('.info_personal').offset().top;
-	vt_infopersonal=vt_infopersonal-100;
+	var vt_infopersonal=$('.about').offset().top;
+	vt_infopersonal=vt_infopersonal-80;
 	
 	$('.icon i').click(function(event) {
 		$('html,body').animate({scrollTop:vt_infopersonal}, 900);
