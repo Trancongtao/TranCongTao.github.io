@@ -733,7 +733,8 @@ html {
 /*============================== Giải Trí ============================== */
 .video .title5 {
     text-align: center;
-    background-color: #2d4256;
+/*    background-color: #2d4256;*/
+background-color: #e67e22;
     padding: 15px 0px;
     color: white;
     font-family: Arial;
